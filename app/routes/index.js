@@ -6,7 +6,7 @@ router.connect = function() {
     userController = require('../controllers/users.js');
 
     router.get('/', function(req, res) {
-      res.json({ message: 'welcome to our api!' });
+      res.json({ message: 'welcome to the api' });
     });
 
     router.get("/users", userController.getUsers);

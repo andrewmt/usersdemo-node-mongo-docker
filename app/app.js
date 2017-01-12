@@ -28,7 +28,6 @@ app.use(methodOverride('_method', {
     methods: ["POST", "GET"]
 }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api', routes);
 
