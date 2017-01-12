@@ -1,7 +1,6 @@
-#!/usr/bin/env node
 'use strict';
 
-var app = require('app');
+var app = require('./app');
 const debug = require('debug')('app:server');
 const http = require('http');
 const mongoose = require('mongoose');
