@@ -1,0 +1,7 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+docker-compose-dev.yml
+Dockerfile-dev
+app/node_modules
